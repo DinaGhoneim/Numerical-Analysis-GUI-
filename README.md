@@ -11,13 +11,13 @@ Welcome to the Numerical Analysis Project! This project provides an interactive 
 
 Additionally, Chapter Two offers methods for solving systems of linear equations:
 
--Gauss Elimination
--Partial Gauss Elimination
--LU Decomposition
--LU Partial Pivoting
--Cramer's Rule
--Gauss-Jordan Elimination
--Jordan Partial Pivoting
+- Gauss Elimination
+- Partial Gauss Elimination
+- LU Decomposition
+- LU Partial Pivoting
+- Cramer's Rule
+- Gauss-Jordan Elimination
+- Jordan Partial Pivoting
 
 ## Installation
 
