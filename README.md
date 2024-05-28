@@ -152,9 +152,10 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 ### Contact Information
 For questions, feedback, or issues, please reach out to:
 
-Dina Shalaby
-Email: dina90736@gmail.com
-GitHub: Dina Ghoneim
+# Dina Shalaby
+
+# Email: dina90736@gmail.com
+
+#GitHub: DinaGhoneim
 ---
 
-This README provides an overview of the project, instructions for installation, and a guide on how to use the implemented methods. Adjust the repository URL, and any additional details as necessary.
