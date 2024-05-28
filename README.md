@@ -1,72 +1,119 @@
-# Numerical-Analysis-GUI-
+Sure! Here's a README file for your project:
 
-# Description
-This project is a Graphical User Interface (GUI) application designed to perform various numerical analysis computations. It provides an intuitive interface for users to input data and parameters, and it computes results for different numerical methods.
+---
 
-# Features
-User-friendly interface for numerical analysis.
-Supports a variety of numerical methods including:
-Root finding (e.g., Newton-Raphson method)
-Numerical integration (e.g., Trapezoidal rule, Simpson's rule)
-Numerical differentiation
-Solving systems of linear equations
-Visualization of results through plots and charts.
-Save and load analysis sessions.
+# Numerical Analysis Project
 
-# Installation
-To get started with this project, follow the steps below:
+Welcome to the Numerical Analysis Project! This project provides an interactive GUI for exploring various numerical methods for solving equations. The methods implemented include:
 
-Clone the repository:
+- Bisection Method
+- False Position Method
+- Simple Fixed Point Method
+- Newton Method
+- Secant Method
 
-sh
-نسخ الكود
-git clone https://github.com/your-username/numerical-analysis-gui.git
-cd numerical-analysis-gui
-Create and activate a virtual environment (optional but recommended):
+## Installation
 
-sh
-نسخ الكود
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-Install the required dependencies:
+1. Ensure you have Python installed. You can download it from [python.org](https://www.python.org/).
+2. Install the required libraries using pip:
+    ```sh
+    pip install customtkinter sympy
+    ```
+3. Clone the repository to your local machine:
+    ```sh
+    git clone <repository_url>
+    ```
 
-sh
-نسخ الكود
-pip install -r requirements.txt
-Run the application:
+## Usage
 
-sh
-نسخ الكود
-python main.py
+1. Navigate to the project directory.
+2. Run the main script:
+    ```sh
+    python main.py
+    ```
 
-# Usage
-Launch the application by running python main.py.
-Use the GUI to select the numerical method you want to use.
-Input the necessary data and parameters.
-Click the "Compute" button to see the results.
-Use the provided options to visualize, save, or export the results.
+This will launch the main window of the application.
 
-# Example
-To perform a root-finding calculation using the Newton-Raphson method:
+## Features
 
-Select "Root Finding" from the main menu.
-Enter the function and its derivative.
-Provide the initial guess and tolerance.
-Click "Compute" to see the root and the iterative process.
+### Main Window
 
-# Contributing
-We welcome contributions to enhance the project! To contribute:
+The main window provides access to two chapters:
 
-Fork the repository.
-Create a new branch (git checkout -b feature-branch).
-Make your changes.
-Commit your changes (git commit -m 'Add some feature').
-Push to the branch (git push origin feature-branch).
-Open a pull request.
+- **Chapter One**: Contains methods for root finding.
+- **Chapter Two**: (Future implementations can be added here).
 
-Contact Information
+### Chapter One
+
+Click on "Chapter One" to access the root finding methods:
+
+- **Bisection Method**: 
+  - This method involves finding the root by repeatedly bisecting the interval and selecting the subinterval in which the root lies.
+- **False Position Method**: 
+  - Also known as Regula Falsi, this method is similar to the bisection method but uses a linear approximation to find the root.
+- **Simple Fixed Point Method**: 
+  - This method involves rearranging the function and iterating from an initial guess until convergence.
+- **Newton Method**: 
+  - This method uses the derivative of the function to find successively better approximations to the root.
+- **Secant Method**: 
+  - This method is similar to Newton's method but does not require the calculation of the derivative.
+
+### Detailed Method Explanation
+
+#### Bisection Method
+
+To use the Bisection Method:
+1. Enter the function `f(x)`.
+2. Enter the lower (`x_l`) and upper (`x_u`) bounds of the interval.
+3. Specify the error tolerance (`ε_a`) or the number of iterations.
+4. Click "Calculate" to find the root and display the intermediate steps.
+
+#### False Position Method
+
+To use the False Position Method:
+1. Enter the function `f(x)`.
+2. Enter the lower (`x_l`) and upper (`x_u`) bounds of the interval.
+3. Specify the error tolerance (`ε_a`) or the number of iterations.
+4. Click "Calculate" to find the root and display the intermediate steps.
+
+#### Simple Fixed Point Method
+
+To use the Simple Fixed Point Method:
+1. Enter the function `f(x)`.
+2. Enter the initial guess (`X_0`).
+3. Specify the error tolerance (`ε_a`) or the number of iterations.
+4. Click "Calculate" to find the root and display the intermediate steps.
+
+#### Newton Method
+
+To use the Newton Method:
+1. Enter the function `f(x)`.
+2. Enter the initial guess (`X_0`).
+3. Specify the error tolerance (`ε_a`) or the number of iterations.
+4. Click "Calculate" to find the root and display the intermediate steps.
+
+#### Secant Method
+
+To use the Secant Method:
+1. Enter the function `f(x)`.
+2. Enter the initial guesses (`X_0` and `X_1`).
+3. Specify the error tolerance (`ε_a`) or the number of iterations.
+4. Click "Calculate" to find the root and display the intermediate steps.
+
+### Customization
+
+You can customize the look and feel of the application by modifying the `fg_color`, `text_color`, and other parameters in the code.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request for any improvements or new features.
+
+### Contact Information
 For questions, feedback, or issues, please reach out to:
 
-Dina Ahmed Ghoneim Mohamed Shalaby
+Dina Shalaby
 Email: dina90736@gmail.com
-GitHub: DinaGhoneim
+GitHub: Dina Ghoneim
+---
+
+This README provides an overview of the project, instructions for installation, and a guide on how to use the implemented methods. Adjust the repository URL, and any additional details as necessary.
