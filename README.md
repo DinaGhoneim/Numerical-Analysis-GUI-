@@ -1,7 +1,3 @@
-Sure! Here's a README file for your project:
-
----
-
 # Numerical Analysis Project
 
 Welcome to the Numerical Analysis Project! This project provides an interactive GUI for exploring various numerical methods for solving equations. The methods implemented include:
@@ -11,6 +7,17 @@ Welcome to the Numerical Analysis Project! This project provides an interactive 
 - Simple Fixed Point Method
 - Newton Method
 - Secant Method
+
+
+Additionally, Chapter Two offers methods for solving systems of linear equations:
+
+-Gauss Elimination
+-Partial Gauss Elimination
+-LU Decomposition
+-LU Partial Pivoting
+-Cramer's Rule
+-Gauss-Jordan Elimination
+-Jordan Partial Pivoting
 
 ## Installation
 
@@ -41,7 +48,7 @@ This will launch the main window of the application.
 The main window provides access to two chapters:
 
 - **Chapter One**: Contains methods for root finding.
-- **Chapter Two**: (Future implementations can be added here).
+- **Chapter Two**: Contains methods for solving systems of linear equations.
 
 ### Chapter One
 
@@ -99,6 +106,40 @@ To use the Secant Method:
 2. Enter the initial guesses (`X_0` and `X_1`).
 3. Specify the error tolerance (`ε_a`) or the number of iterations.
 4. Click "Calculate" to find the root and display the intermediate steps.
+
+
+### Chapter Two
+
+Click on "Chapter Two" to access methods for solving systems of linear equations:
+
+1. **Gauss Elimination**: 
+    - Enter the coefficient matrix and the constants vector.
+    - Click "Calculate" to obtain the solution.
+
+2. **Partial Gauss Elimination**: 
+    - Enter the coefficient matrix and the constants vector.
+    - Click "Calculate" to obtain the solution.
+
+3. **LU Decomposition**: 
+    - Enter the coefficient matrix and the constants vector.
+    - Click "Calculate" to obtain the solution.
+
+4. **LU Partial Pivoting**: 
+    - Enter the coefficient matrix and the constants vector.
+    - Click "Calculate" to obtain the solution.
+
+5. **Cramer's Rule**: 
+    - Enter the coefficient matrix and the constants vector.
+    - Click "Calculate" to obtain the solution.
+
+6. **Gauss-Jordan Elimination**: 
+    - Enter the coefficient matrix and the constants vector.
+    - Click "Calculate" to obtain the solution.
+
+7. **Jordan Partial Pivoting**: 
+    - Enter the coefficient matrix and the constants vector.
+    - Click "Calculate" to obtain the solution.
+
 
 ### Customization
 
